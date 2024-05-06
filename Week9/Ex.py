@@ -9,7 +9,7 @@ import torch.nn as nn
 import torch.optim as optim # gradient descent method를 구현
 import torchvision.datasets as dset # pytorch 에서 제공하는 dataset -> MNIST
 import torchvision.transforms as transforms # data 를 훈련하기 위해서 관리하는 library
-from torch.utills.data import DataLoader # data 를 읽어들이는 library
+from torch.utils.data import DataLoader # data 를 읽어들이는 library
 from torch.autograd import Variable # numpy 의 배열을 pytorch 의 변수로 변환 -> 자동 미분하려고
 
 # 3. matplotlib
